@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>プライバシーポリシー — 御庭番</title>
+<style>
+  :root { color-scheme: light dark; }
+  body {
+    font-family: -apple-system, "Hiragino Sans", "Yu Gothic", sans-serif;
+    line-height: 1.9; max-width: 42rem; margin: 0 auto; padding: 2.5rem 1.25rem 5rem;
+  }
+  h1 { font-size: 1.6rem; margin-bottom: .25rem; }
+  h2 { font-size: 1.1rem; margin-top: 2.2rem; padding-top: .6rem; border-top: 1px solid rgba(128,128,128,.3); }
+  .lead { opacity: .75; margin-top: 0; }
+  .date { opacity: .6; font-size: .85rem; }
+  table { border-collapse: collapse; width: 100%; margin: .8rem 0; font-size: .95rem; }
+  th, td { text-align: left; padding: .5rem .6rem; border-bottom: 1px solid rgba(128,128,128,.25); vertical-align: top; }
+  th { width: 34%; white-space: nowrap; }
+  .en { margin-top: 3rem; font-size: .9rem; opacity: .8; }
+  a { color: inherit; }
+</style>
+</head>
+<body>
+
+<h1>プライバシーポリシー</h1>
+<p class="lead">御庭番（Oniwaban）— iPhone / Mac 用メールソフト</p>
+<p class="date">最終更新: 2026年8月8日</p>
+
+<h2>要点</h2>
+<p>
+<strong>御庭番は、あなたのメールを外へ持ち出しません。</strong>
+読み取りも、要件の読み解きも、名簿づくりも、すべてあなたの端末の中で行われます。
+私たちはサーバーを持っておらず、あなたのメールを受け取る手立てそのものがありません。
+</p>
+<p>
+アカウント登録はありません。利用状況の記録（アナリティクス）も、広告も、
+第三者への提供もありません。
+</p>
+
+<h2>何がどこに置かれるか</h2>
+<table>
+  <tr><th>メールの中身</th>
+      <td>あなたのメールサーバーから、この端末へ直接届きます。端末の中（アプリの領域）に保存され、外へは出ません。</td></tr>
+  <tr><th>メールのパスワード</th>
+      <td>端末のキーチェーンにのみ保存されます。Gmail や Microsoft 365 で「サインイン」をお選びの場合は、パスワード自体をお預かりしません。</td></tr>
+  <tr><th>AIの判断</th>
+      <td>端末に内蔵されたAppleのモデル、またはあなた自身の機械で動く Ollama を使います。<strong>外部のAI事業者へメールを送ることはありません。</strong></td></tr>
+  <tr><th>名簿（連絡先）</th>
+      <td>届いたメールから端末の中で作られます。外へは出ません。</td></tr>
+  <tr><th>名刺の読み取り</th>
+      <td>撮影した画像の文字起こしは、端末の中の仕組み（Vision）で行われます。画像もその結果も外へは出ません。</td></tr>
+  <tr><th>端末どうしの連携</th>
+      <td>同じWi-Fi、またはBluetoothで、2台の間だけを直接流れます。サーバーを経由しません。やり取りは暗号化されており、つなぐには双方の画面に出る6桁の合言葉が要ります。</td></tr>
+</table>
+
+<h2>通信する先</h2>
+<p>御庭番が接続するのは、次の3つだけです。</p>
+<ul>
+  <li><strong>あなたが設定したメールサーバー</strong>（IMAP / SMTP。通信は暗号化されます）</li>
+  <li><strong>Google または Microsoft の認証画面</strong> — 「サインイン」を選ばれた場合のみ。
+      発行された引換券は端末のキーチェーンに保存されます</li>
+  <li><strong>Ollama</strong> — AIエンジンにこれを選ばれた場合のみ。既定ではあなたの機械の中
+      （localhost）です。接続先をご自身で別の機械に変更された場合、その機械へメールの本文が渡ります</li>
+</ul>
+<p>これ以外の通信先はありません。私たちのサーバーというものが存在しません。</p>
+
+<h2>購読について</h2>
+<p>
+支払いは Apple が処理します。私たちが受け取るのは
+「購読が有効かどうか」だけで、お名前・メールアドレス・支払い方法などを受け取ることはありません。
+</p>
+
+<h2>データの削除</h2>
+<p>
+アプリを削除すると、端末に保存されていたメール・名簿・設定・パスワードも一緒に消えます。
+メールサーバー上のメールはあなたのものであり、削除の対象ではありません。
+</p>
+
+<h2>お子様の利用について</h2>
+<p>
+御庭番は個人情報を収集しないため、年齢による取り扱いの違いはありません。
+</p>
+
+<h2>変更について</h2>
+<p>
+このポリシーを変更した場合は、このページを更新し、上部の更新日を改めます。
+</p>
+
+<h2>お問い合わせ</h2>
+<p>
+<a href="mailto:takec02.oniwaban@gmail.com">takec02.oniwaban@gmail.com</a>
+</p>
+
+<div class="en">
+<h2>English summary</h2>
+<p>
+Oniwaban is an email client for iPhone and Mac. <strong>It has no servers.</strong>
+Your mail is fetched directly from your own mail server to your device and stays there.
+All AI processing runs on-device (Apple's built-in model) or on a machine you control (Ollama).
+We collect no personal data, no analytics, and no account is required.
+Device-to-device sync happens directly over your local network or Bluetooth, encrypted,
+and requires a 6-digit code shown on both devices. Payments are handled by Apple;
+we receive only whether a subscription is active.
+</p>
+</div>
+
+</body>
+</html>
