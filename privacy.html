@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>プライバシーポリシー — 御庭番</title>
+<title>プライバシーポリシー — ゆうひつ</title>
 <style>
   :root { color-scheme: light dark; }
   body {
@@ -24,12 +24,12 @@
 <body>
 
 <h1>プライバシーポリシー</h1>
-<p class="lead">御庭番（Oniwaban）— iPhone / Mac 用メールソフト</p>
-<p class="date">最終更新: 2026年8月8日</p>
+<p class="lead">ゆうひつ（Yuhitsu）— iPhone / Mac 用メールソフト</p>
+<p class="date">最終更新: 2026年9月13日</p>
 
 <h2>要点</h2>
 <p>
-<strong>御庭番は、あなたのメールを外へ持ち出しません。</strong>
+<strong>ゆうひつは、あなたのメールを外へ持ち出しません。</strong>
 読み取りも、要件の読み解きも、名簿づくりも、すべてあなたの端末の中で行われます。
 私たちはサーバーを持っておらず、あなたのメールを受け取る手立てそのものがありません。
 </p>
@@ -41,11 +41,11 @@
 <h2>何がどこに置かれるか</h2>
 <table>
   <tr><th>メールの中身</th>
-      <td>あなたのメールサーバーから、この端末へ直接届きます。端末の中（アプリの領域）に保存され、外へは出ません。</td></tr>
+      <td>あなたのメールサーバーから、この端末へ直接届きます。端末の中（アプリの領域）に保存され、外へ漏れることはありません。</td></tr>
   <tr><th>メールのパスワード</th>
       <td>端末のキーチェーンにのみ保存されます。Gmail や Microsoft 365 で「サインイン」をお選びの場合は、パスワード自体をお預かりしません。</td></tr>
   <tr><th>AIの判断</th>
-      <td>端末に内蔵されたAppleのモデル、またはあなた自身の機械で動く Ollama を使います。<strong>外部のAI事業者へメールを送ることはありません。</strong></td></tr>
+      <td>端末に内蔵されたAppleのモデルを使います。Mac版では、ご自身で用意された Ollama に切り替えることもできます。<strong>私たちがメールを受け取ることはありません。</strong>ただし Ollama でクラウドのモデルを選ばれた場合は、Ollama がメールの本文を自社のクラウドで処理します。</td></tr>
   <tr><th>名簿（連絡先）</th>
       <td>届いたメールから端末の中で作られます。外へは出ません。</td></tr>
   <tr><th>名刺の読み取り</th>
@@ -55,13 +55,14 @@
 </table>
 
 <h2>通信する先</h2>
-<p>御庭番が接続するのは、次の3つだけです。</p>
+<p>ゆうひつが接続するのは、次の3つだけです。</p>
 <ul>
   <li><strong>あなたが設定したメールサーバー</strong>（IMAP / SMTP。通信は暗号化されます）</li>
   <li><strong>Google または Microsoft の認証画面</strong> — 「サインイン」を選ばれた場合のみ。
       発行された引換券は端末のキーチェーンに保存されます</li>
   <li><strong>Ollama</strong> — AIエンジンにこれを選ばれた場合のみ。既定ではあなたの機械の中
-      （localhost）です。接続先をご自身で別の機械に変更された場合、その機械へメールの本文が渡ります</li>
+      （localhost）です。接続先をご自身で別の機械に変更された場合、その機械へメールの本文が渡ります。
+      また Ollama でクラウドのモデルを選ばれた場合は、Ollama がメールの本文を自社のクラウドへ送って処理します</li>
 </ul>
 <p>これ以外の通信先はありません。私たちのサーバーというものが存在しません。</p>
 
@@ -79,7 +80,7 @@
 
 <h2>お子様の利用について</h2>
 <p>
-御庭番は個人情報を収集しないため、年齢による取り扱いの違いはありません。
+ゆうひつは個人情報を収集しないため、年齢による取り扱いの違いはありません。
 </p>
 
 <h2>変更について</h2>
@@ -95,9 +96,10 @@
 <div class="en">
 <h2>English summary</h2>
 <p>
-Oniwaban is an email client for iPhone and Mac. <strong>It has no servers.</strong>
+Yuhitsu is an email client for iPhone and Mac. <strong>It has no servers.</strong>
 Your mail is fetched directly from your own mail server to your device and stays there.
-All AI processing runs on-device (Apple's built-in model) or on a machine you control (Ollama).
+AI processing runs on-device with Apple's built-in model. On Mac you may switch to Ollama instead;
+if you choose one of Ollama's cloud models, Ollama sends the mail content to its own cloud service for processing.
 We collect no personal data, no analytics, and no account is required.
 Device-to-device sync happens directly over your local network or Bluetooth, encrypted,
 and requires a 6-digit code shown on both devices. Payments are handled by Apple;
